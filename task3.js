@@ -1,2 +1,3 @@
 ayam;
 serigala;
+ikan
