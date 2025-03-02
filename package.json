@@ -1,0 +1,23 @@
+{
+  "name": "soal2",
+  "version": "1.0.0",
+  "description": "My First Task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/effendia/Task-Personal-.git"
+  },
+  "author": "Amelia Kulsum Effendi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/effendia/Task-Personal-/issues"
+  },
+  "homepage": "https://github.com/effendia/Task-Personal-#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

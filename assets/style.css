@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+.container2 {
+    display: flex;
+    gap: 30px;
+}
+
+.container h2 {
+    color: white;
+}
+
+.file {
+background-color: rgb(84, 84, 90);
+    border: 4px;
+    color: grey;
+    width: 15%;
+    border-radius: 15px;
+  
+}
+
+.file h3 {
+    gap: 5px;
+    color: white;
+}
+
+.file img {
+    color: white;
+    width: 50px;
+
+}
