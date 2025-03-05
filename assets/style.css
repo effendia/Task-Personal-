@@ -2,9 +2,45 @@ body {
     background-color: black;
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: #1e1e1e;
+}
+
+.buttons button {
+    border: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.login {
+    background-color: #d4af37;
+    color: black;
+}
+
+.register {
+    background-color: #d4af37;
+    color: black;
+}
+
+
+/* card */
+
 .container2 {
     display: flex;
     gap: 30px;
+    
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
 
 .container h2 {
@@ -12,12 +48,18 @@ body {
 }
 
 .file {
-background-color: rgb(84, 84, 90);
+/* background-color: rgb(84, 84, 90);
     border: 4px;
     color: grey;
     width: 15%;
-    border-radius: 15px;
-  
+    border-radius: 15px; */
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .file h3 {
@@ -29,4 +71,157 @@ background-color: rgb(84, 84, 90);
     color: white;
     width: 50px;
 
+}
+
+.progress {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.pending {
+    background-color: purple;
+}
+
+.completed {
+    background-color: green;
+}
+
+.add-collection {
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    border: 2px dashed rgb(239, 239, 239);
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* WORK */
+
+  /* Navbar */
+.logout {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Task Container */
+.task-container {
+    width: 80%;
+    margin: 20px auto;
+     /* background-color: #1e1e1e; */
+    color: white; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.work-status {
+    background-color: #242424;
+    width: 90px;
+}
+
+
+/* Task Header */
+.task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.task-title {
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
+
+.delete-btn {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Add Task */
+.add-task {
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.add-btn {
+    background: purple;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-task input {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    flex-grow: 1;
+    outline: none;
+}
+
+/* Task List */
+.tasks {
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242424;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.task-item span {
+    font-size: 16px;
+}
+
+/* Checkbox */
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid purple;
+    border-radius: 50%;
+}
+
+.checked {
+    background-color: purple;
+}
+
+/* Completed Tasks */
+.completed-tasks .task-item {
+    background-color: #292929;
 }
